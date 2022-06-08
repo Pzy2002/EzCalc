@@ -32,30 +32,30 @@ int main()
                     }
                     if(op=='+')
                         {sum+=temp;
-                        system("cls");
+                        printf ("\033c");
                         printf("now was %lf\n",sum);}
                     if(op=='-')
                        {sum-=temp;
-                       system("cls");
+                       printf ("\033c");
                         printf("now was %lf\n",sum);}
                     if(op=='*')
                         {sum*=temp;
-                        system("cls");
+                        printf ("\033c");
                         printf("now was %lf\n",sum);}
                         if(op=='/')
                         {sum/=temp;
-                        system("cls");
+                         printf ("\033c");
                         printf("now was %lf\n",sum);}
                          if(op=='i')
                             {
                                 sum=pow(sum,temp);
-                                system("cls");
+                                 printf ("\033c");
                                 printf("now was %lf\n",sum);
                             }
                          if(op=='p')
                        {
                            sum=pow(sum,1/temp);
-                            system("cls");
+                           printf ("\033c");
                             printf("now was %lf\n",sum);
                         }
                        if(op=='!')
@@ -85,38 +85,38 @@ int main()
                     }
                     if(op=='+')
                         {sum+=temp;
-                        system("cls");
+                         printf ("\033c");
                         printf("now was %lf\n",sum);}
                     if(op=='-')
                        {sum-=temp;
-                       system("cls");
+                        printf ("\033c");
                         printf("now was %lf\n",sum);}
                     if(op=='*')
                         {sum*=temp;
-                        system("cls");
+                         printf ("\033c");
                         printf("now was %lf\n",sum);}
                         if(op=='/')
                         {sum/=temp;
-                        system("cls");
+                         printf ("\033c");
                         printf("now was %lf\n",sum);}
                 }
                          if(op=='i')
                             {
                                 sum=pow(sum,temp);
-                                system("cls");
+                                 printf ("\033c");
                                 printf("now was %lf\n",sum);
                             }
                          if(op=='p')
                        {
                            sum=pow(sum,1/temp);
-                            system("cls");
+                             printf ("\033c");
                             printf("now was %lf\n",sum);
                         }
                        }
                         if(op=='?')
                         {
                             char at;
-                            system("cls");
+                             printf ("\033c");
                             printf("don't worry, your data was still keeping here\n");
                             printf("it's an caculatior programmed by c launage\n");
                             printf("now version you can use + - * and /\n");
@@ -133,10 +133,10 @@ int main()
                             printf("press any key to leave this manual\n");
                             printf("except @ that will show my info\n");
                             scanf("%c%c",&at,&enter);
-                            system("cls");
+                             printf ("\033c");
                             if(at=='@'||enter=='@')
                             {
-                                system("cls");
+                                 printf ("\033c");
                                 printf("my email was Markpeng0315@qq.com\n");
                                 printf("my tencent QQ was 894611735\n");
                                 printf("twitter and facebook I trully have, but never see \n");
@@ -147,7 +147,7 @@ int main()
                                 printf("donate: https://paypal.me/MarkPeng0315");
                                 printf("press anykey back to main calc\n");
                                 scanf("%c",&enter);
-                                system("cls");
+                                printf ("\033c");
                             }
 
                         }
