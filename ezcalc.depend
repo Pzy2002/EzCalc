@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1654692338 source:d:\codes\ezcalc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
